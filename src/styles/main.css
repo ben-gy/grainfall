@@ -215,18 +215,22 @@ button:focus-visible {
   min-width: 0;
 }
 .stat .k {
-  font-size: 0.68rem;
+  display: block;
+  font-size: 0.64rem;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.06em;
   color: var(--ink-faint);
   font-weight: 700;
+  margin-bottom: 2px;
 }
 .stat .v {
+  display: block;
   font-family: var(--font);
-  font-size: clamp(1.05rem, 5.4vw, 1.5rem);
+  font-size: clamp(1rem, 4.7vw, 1.5rem);
   font-weight: 700;
-  line-height: 1.15;
+  line-height: 1.1;
   font-variant-numeric: tabular-nums;
+  white-space: nowrap;
 }
 .stat.grain .v {
   color: var(--grain-2);
@@ -321,9 +325,13 @@ button:focus-visible {
 .dec-val {
   font-family: var(--font);
   font-variant-numeric: tabular-nums;
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   font-weight: 700;
   color: var(--grain-2);
+  white-space: nowrap;
+}
+.dec-head > div:first-child {
+  min-width: 0;
 }
 .dec.land .dec-val {
   color: var(--land);

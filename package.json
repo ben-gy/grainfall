@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "type": "module",
   "description": "Rule a city-state one year at a time — split the grain, sow the fields, read the weather, and keep your people alive.",
+  "license": "AGPL-3.0-or-later",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

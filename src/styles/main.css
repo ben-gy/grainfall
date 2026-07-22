@@ -1,3 +1,8 @@
+/*
+ * SPDX-License-Identifier: AGPL-3.0-or-later
+ * Copyright (C) 2026 Ben Richardson — https://benrichardson.dev
+ * Additional terms under AGPL-3.0 section 7(b) apply; see ADDITIONAL-TERMS.md.
+ */
 /* Grainfall — warm harvest-almanac theme. Colour roles are amber (grain), teal
    (people), clay-rose (land); no red/green pairing, so it reads for colour-blind
    players. Layout is DOM: numbers, sliders, a narrated log. */
